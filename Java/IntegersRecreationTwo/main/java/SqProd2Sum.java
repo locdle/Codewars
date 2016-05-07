@@ -20,4 +20,22 @@ public class SqProd2Sum {
         return result;
 
     }
+    public static void process() {
+        int x = 22;
+        System.out.printf(x + " ");
+        modify_x(x);
+        System.out.println(x + " ");
+    }
+
+    public static void modify_x (int x) {
+        x = 99;
+        System.out.println(x + " ");
+    }
+
+    public static void main(String[] args) {
+        for (int i = 6 ; i <= 15; i++) {
+            System.out.println("Hello world!");
+        }
+    }
+
 }
